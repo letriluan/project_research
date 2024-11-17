@@ -1,0 +1,15 @@
+# download command/URL (optional)
+download: https://github.com/ultralytics/yolov5/releases/download/v1.0/coco128.zip
+
+path: RGB_IR_dataset
+train_rgb: RGB_IR_dataset/train/images/Vis 
+val_rgb: RGB_IR_dataset/val/images/Vis 
+test_rgb: RGB_IR_dataset/test/images/Vis
+train_ir: RGB_IR_dataset/train/images/Ir 
+val_ir: RGB_IR_dataset/val/images/Ir 
+test_ir: RGB_IR_dataset/test/images/Ir
+# number of classes
+nc: 2
+
+# class names
+names: ['person', 'car']
